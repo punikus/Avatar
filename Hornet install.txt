@@ -60,6 +60,8 @@ NODE_HOST=
 DASHBOARD_PASSWORD=
 DASHBOARD_SALT=
 
+# Save and exit .env file
+
 # Examle
 COMPOSE_FILE=docker-compose.yml
 NODE_HOST=192.186.183.40
