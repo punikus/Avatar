@@ -42,7 +42,7 @@ cd hornet
 curl -L -O "https://github.com/iotaledger/node-docker-setup/releases/download/v1.0.0-rc.16/node-docker-setup_stardust-v1.0.0-rc.16.tar.gz"
 tar -zxf node-docker-setup_stardust-v1.0.0-rc.16.tar.gz
 
-# With this command you will get your hash and your salt for the dashboard. just copy-paste when you get them for next step: 
+# With next command you will get your hash and your salt for the dashboard. just copy-paste when you get them for next step: 
 docker compose run hornet tool pwd-hash
 # You will get this two...
   Your hash: 
@@ -74,6 +74,6 @@ docker compose down
 
 
 # After starting the node you will be able to access your services in the browser at http://localhost/dashboard,
-just change localhost with your raspberrys IP.Or you can try your raspberry pi IP adress following :80 Example 192.168.1.40:80 . Good luck, i hope this helped you...
+just change localhost with your raspberrys IP.Or you can try your raspberry pi IP adress following :80 Example 192.168.183.40 . Good luck, i hope this helped you...
 And the official guide of how to install hornet: https://wiki.iota.org/hornet/2.0.0-rc.6/how_tos/using_docker/
 
