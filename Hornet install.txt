@@ -47,7 +47,7 @@ docker compose run hornet tool pwd-hash
   Your hash: 
   Your salt: 
 
-# Create .env file with nano command for dashboard use and just copy-paste the template under. NODE_HOST is your raspberry pi IP, I set it in my router always to be the same IP for raspberry pi, but i don't know if that is necessary. DASHBOARD_PASSWORD is your hash that you generated in previous step and DASHBOARD_SALT is your salt:
+# Create .env file with nano command for dashboard use and just copy-paste the template under. NODE_HOST is your raspberry pi IP adress, I set it in my router always to be the same IP for raspberry pi, but i don't know if that is necessary. DASHBOARD_PASSWORD is your hash that you generated in previous step and DASHBOARD_SALT is your salt:
 
 nano .env
 
