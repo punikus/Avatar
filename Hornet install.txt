@@ -1,3 +1,5 @@
+# This is shimmer hornet install tutorial for raspberry pi os lite (64BIT)
+
 # Set superuser privileges:
 sudo su
 
