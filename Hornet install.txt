@@ -1,6 +1,8 @@
 # This is shimmer hornet install tutorial for raspberry pi os lite (64BIT)
 you will have to use this OS for hornet node.
 
+#First of all you will have to open following ports on your router for raspberry pi: 15600/tcp, 14626/udp and 80/tpc
+
 # Set superuser privileges:
 sudo su
 
